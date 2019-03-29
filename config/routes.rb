@@ -3,8 +3,6 @@ Rails.application.routes.draw do
   root 'homer#index' # Define a pagina padrão, inicial, "nome_controller#ação"
   get 'homer/index'
 
-  
-  
   resources :phones
   resources :addresses
   resources :contacts
