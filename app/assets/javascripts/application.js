@@ -11,8 +11,8 @@
 // about supported directives.
 //
 //= require notifyjs
-//= requer bootstrap
-//= require jquery/dist/js/jquery
+//= require bootstrap
+//= require jquery
 //= require cocoon
 //= require rails-ujs
 //= require activestorage
