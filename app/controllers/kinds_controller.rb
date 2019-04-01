@@ -58,7 +58,7 @@ class KindsController < ApplicationController
   def destroy
     @kind.destroy
     respond_to do |format|
-      format.html { redirect_to kinds_path, notice: I18n.t('messages.destroyed')}
+      format.html { redirect_to root_path, notice: I18n.t('messages.destroyed')}
       format.json { head :no_content }
     end
   end
