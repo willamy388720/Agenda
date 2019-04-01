@@ -23,4 +23,3 @@ Rails.application.config.assets.precompile += %w( addresses.css
     kinds.js
     phones.js )
 
-Rails.application.config.assets.paths << Rails.root.join('node_modules')

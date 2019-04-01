@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.1'
 
 gem 'bundler', '>= 1.8.4'
-
+gem 'rails-assets-jquery', source: 'https://rails-assets.org'
 gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
 #Bootstrap
 gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'

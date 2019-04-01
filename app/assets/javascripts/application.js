@@ -12,6 +12,7 @@
 //
 //= require notifyjs
 //= require bootstrap
+//= require jquery
 //= require cocoon
 //= require rails-ujs
 //= require activestorage
